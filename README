@@ -1,0 +1,89 @@
+# 🏥 Sistema de Clínica Médica
+
+Projeto acadêmico desenvolvido para a disciplina de Desenvolvimento Prático Profissional da Universidade de Mogi das Cruzes (UMC).
+
+## 🎓 Informações
+
+- **Universidade:** Universidade de Mogi das Cruzes (UMC)
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Disciplina:** Desenvolvimento Prático Profissional
+- **Ano:** 2026
+
+## 👥 Integrantes
+
+- Daniel Nascimento
+- Nome do integrante 2
+- Nome do integrante 3
+- Nome do integrante 4
+- Nome do integrante 5
+- Nome do integrante 6
+
+## 📋 Sobre o projeto
+
+O projeto consiste no desenvolvimento de um banco de dados relacional
+para o gerenciamento das informações de uma clínica médica.
+
+O sistema permite o armazenamento e relacionamento de informações
+sobre pacientes, médicos, especialidades, prontuários e consultas.
+
+## 🗃️ Estrutura do banco
+
+O banco de dados é composto pelas seguintes tabelas:
+
+- `paciente`
+- `medico`
+- `especialidade`
+- `prontuario`
+- `consulta`
+
+### Principais relacionamentos
+
+- Um paciente pode possuir um prontuário.
+- Um paciente pode realizar várias consultas.
+- Um médico pode realizar várias consultas.
+- Um médico pertence a uma especialidade.
+- Uma especialidade pode possuir vários médicos.
+
+## 🛠️ Tecnologias utilizadas
+
+- MySQL
+- MySQL Workbench
+- SQL
+- Git / GitHub
+
+## 📊 Modelagem
+
+O projeto contempla:
+
+- Modelo Entidade-Relacionamento (MER)
+- Modelo lógico
+- Chaves primárias
+- Chaves estrangeiras
+- Restrições de integridade
+
+## 🔎 Consultas SQL
+
+Foram desenvolvidas consultas utilizando diferentes recursos do SQL,
+incluindo:
+
+- `SELECT`
+- `WHERE`
+- `ORDER BY`
+- `COUNT`
+- `MIN`
+- `MAX`
+- `GROUP BY`
+- `INNER JOIN`
+- `LEFT JOIN`
+- Consultas envolvendo múltiplas tabelas
+
+## 🚀 Objetivo
+
+Aplicar na prática os conceitos de modelagem e implementação de bancos
+de dados relacionais, desde o levantamento de requisitos até a criação,
+inserção e consulta dos dados.
+
+## 📚 Disciplina
+
+Projeto desenvolvido como atividade acadêmica da disciplina
+**Desenvolvimento Prático Profissional — UMC**.
